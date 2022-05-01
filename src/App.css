@@ -1,5 +1,19 @@
+:root {
+  --bg-color-dark: #141319;
+  --color-dark: #e8e6e3;
+  --search-container-bg: #34343d;
+  --navbar-bg-color: #191921;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  color: var(--color-dark);
+  background-color: var(--bg-color-dark);
 }
 
 .App-logo {
