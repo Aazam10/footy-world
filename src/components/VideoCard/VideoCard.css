@@ -1,0 +1,58 @@
+.video-card {
+  width: 20rem;
+  box-shadow: 0 0 5px 1px #2d4263;
+}
+
+.video-card-header {
+  width: 100%;
+  position: relative;
+}
+
+.video-thumbnail {
+  width: 100%;
+}
+.action-buttons {
+  display: inline-flex;
+  position: absolute;
+  bottom: 5%;
+  justify-content: flex-end;
+  bottom: 0.5rem;
+  right: 0;
+  padding-right: 1rem;
+  gap: 1rem;
+}
+
+.icon-button {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 2.2rem;
+  width: 2.2rem;
+  color: var(--color-dark);
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
+
+.video-body {
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.video-card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.video-channel {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 4rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}

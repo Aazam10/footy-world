@@ -2,12 +2,13 @@ import "./App.css";
 import Mockman from "mockman-js";
 import { Routes, Route } from "react-router-dom";
 import { Login, VideoListing, Liked } from "./pages/index";
-import { Navbar } from "./components";
+import { Navbar, Sidebar } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="mock" element={<Mockman />} />
         <Route path="login" element={<Login />} />

@@ -1,0 +1,18 @@
+.explore-page {
+  margin-left: 15rem;
+  /* padding: 1rem 2rem; */
+  margin-top: 5rem;
+}
+
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 3rem;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .explore-page {
+    margin-left: 0;
+  }
+}
