@@ -16,7 +16,7 @@ import { RequiresAuth } from "./RequiresAuth";
 
 function App() {
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   return (
     <div className="App">
       <Navbar />
