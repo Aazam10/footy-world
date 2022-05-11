@@ -16,10 +16,10 @@ const VideoCard = ({
         <img src={thumbnail} alt={title} className="video-thumbnail" />
         <div className="action-buttons">
           <button className="icon-button">
-            <i class="fa-regular fa-thumbs-up"></i>
+            <i className="fa-regular fa-thumbs-up"></i>
           </button>
           <button className="icon-button">
-            <i class="fa-regular fa-bookmark"></i>
+            <i className="fa-regular fa-bookmark"></i>
           </button>
           <button className="icon-button">
             <i className="fa-solid fa-folder-plus"></i>
