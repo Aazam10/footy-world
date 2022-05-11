@@ -1,5 +1,5 @@
 const Liked = () => {
-  return <div>Liked Videos</div>;
+  return <main className="explore-page">liked</main>;
 };
 
 export { Liked };
